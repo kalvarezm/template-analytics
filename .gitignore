@@ -1,0 +1,9 @@
+# For R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/*
+
+# General
+README.html
