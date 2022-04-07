@@ -11,7 +11,10 @@ Template for analytics repositories
 ### RStudio
 - Download last version from https://www.rstudio.com
 
-## 2) Project
+### Python
+- Install Miniconda https://docs.conda.io/en/latest/miniconda.html
+
+## 2) Project in R
 
 ### Open project
 1. Change `template-analytics.Rproj` to project folder name
@@ -27,7 +30,22 @@ Template for analytics repositories
 1. Install: `install.packages("renv")` in base environment
 2. Execute: `renv::restore()` (syncronize packeges from lockfile). 
 
-## 3) Version control (git)
+## 3) Project in Python
+
+### Python 
+- Version: **3.9.7**
+- Notebook: **Jupyter Lab**
+
+### Project structure 
+- **template-analytics** (root folder)
+  - **data**
+  - **script** 
+  - **notebook** 
+  
+### Configure environment (conda)
+- Execute: `conda create --name [environment_name]`
+
+## 4) Version control (git)
 
 ### Useful commands
 - Clone: `git clone https://github.com/ASLM-PE/Project_T`
@@ -39,7 +57,7 @@ Template for analytics repositories
 - New branch `git checkout -b new_branch`
 - Move to other branch `git checkout branch`
 
-## 4) Conventions
+## 5) Conventions
 
 Conventions are useful to mantain high quality and order in project
 
